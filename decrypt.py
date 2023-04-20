@@ -21,6 +21,10 @@ for char in encrypt_text:
 #   if not vowel
     else:
         decrypt_text += char
+
 # print the output
-print(decrypt_text)
 # Create design
+
+# import module
+# setup the appearance
+# display the decrypted text to a text editor
