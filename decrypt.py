@@ -26,5 +26,15 @@ for char in encrypt_text:
 # Create design
 
 # import module
+import tkinter as tk
 # setup the appearance
+root = tk.Tk()
+root.title("Problem 2")
+
+root.geometry("500x100")
+text = tk.Text(root, width = 500, height = 100)
+text.pack()
 # display the decrypted text to a text editor
+text.insert(tk.END, "The Plain Text: ", decrypt_text)
+
+root.mainloop()
