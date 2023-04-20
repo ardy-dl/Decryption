@@ -7,10 +7,18 @@ for char in encrypt_text:
     if char == "*":
         decrypt_text += "a"
 #   if & change to e
+    elif char == "&":
+        decrypt_text += "e"
 #   if # change to i
+    elif char == "#":
+        decrypt_text += "i"
 #   if + change to o
+    elif char == "+":
+        decrypt_text += "o"
 #   if ! change to u
-# if not vowel
+    elif char == "!":
+        decrypt_text += "u"
+#   if not vowel
     else:
         decrypt_text += char
 # print the output
