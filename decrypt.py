@@ -35,6 +35,6 @@ root.geometry("500x100")
 text = tk.Text(root, width = 500, height = 100)
 text.pack()
 # display the decrypted text to a text editor
-text.insert(tk.END, "The Plain Text: ", decrypt_text)
+text.insert(tk.END, "The Plain Text: " + decrypt_text)
 
 root.mainloop()
